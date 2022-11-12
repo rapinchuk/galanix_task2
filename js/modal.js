@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     modal.addEventListener("click",(e)=>{
         if(e.target.classList.contains("modal_img")) {
             return;
-            // code...
+            
           }
         modal.style.display = "none";
         document.body.style.overflow = "auto"})

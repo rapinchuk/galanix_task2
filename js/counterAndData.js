@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-    
-  
-
     let dateDiv = document.querySelector(".header_date")
     
     function getDate(){
