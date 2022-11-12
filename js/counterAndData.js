@@ -1,11 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
     
-    let images = document.querySelectorAll(".img_block")
-    let countSpan = document.querySelector("#count_span")
-    function counter(){
-       countSpan.innerHTML = " " +images.length
-    }
-    
+  
 
     let dateDiv = document.querySelector(".header_date")
     
@@ -34,6 +29,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 
-    counter()
+   
     getDate()
   });
